@@ -1,0 +1,25 @@
+{
+  "name": "squid-default-error-handler",
+  "version": "1.0.0",
+  "description": "Handler padrão para o boom.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com:squidit/default-error-handler.git"
+  },
+  "author": "Squid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/squidit/default-error-handler/issues"
+  },
+  "homepage": "https://gitlab.com/squidit/default-error-handler#README",
+  "publishConfig": {
+    "registry": "http://npm.squidit.com.br/"
+  },
+  "dependencies": {
+    "boom": "^3.1.3"
+  }
+}
