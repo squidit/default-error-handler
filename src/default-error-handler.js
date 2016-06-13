@@ -1,6 +1,6 @@
 const boom = require('boom');
 
-module.exports = (req, reply, includePayload) => {
+module.exports = (req, reply, includePayload = true) => {
   return err => {
     const wrappedError = boom.wrap(err);
     if (process.env.NODE_ENV !== 'test') {

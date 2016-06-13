@@ -1,1 +1,1 @@
-require('./src/default-error-handler');
+module.exports = require('./src/default-error-handler');
