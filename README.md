@@ -1,3 +1,5 @@
+[Deprecated] - Usar o https://github.com/squidit/sq-logger
+
 ## default-error-handler
 > Handler padrão para o Boom.
 
